@@ -1,0 +1,1146 @@
+2015-04-01 16:51:43 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/var/www/html/mycake/app/Model/User.php, line 59]
+2015-04-01 16:51:43 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /mycake/users/operation
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 59, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 59, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:52:21 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/var/www/html/mycake/app/Model/User.php, line 52]
+2015-04-01 16:52:21 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /mycake/users/operation
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/var/www/html/m...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/var/www/html/m...', 52, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/var/www/html/m...', 52, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:53:37 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/var/www/html/mycake/app/Controller/AppController.php, line 56]
+2015-04-01 16:53:37 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /mycake/users/operation
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/m...', 56)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/m...', 56, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/m...', 56, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:54:33 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/login.ctp',
+)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 16:54:49 Error: Fatal Error (4): syntax error, unexpected 'DebugKit' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Controller/AppController.php, line 56]
+2015-04-01 16:54:49 Error: [FatalErrorException] syntax error, unexpected 'DebugKit' (T_STRING), expecting ')'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 56, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 56, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:55:06 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/login.ctp',
+)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 16:55:06 Error: Fatal Error (1): Cannot access empty property in [/var/www/html/mycake/lib/Cake/Controller/Controller.php, line 437]
+2015-04-01 16:55:06 Error: [FatalErrorException] Cannot access empty property
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/html/m...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/html/m...', 437, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/html/m...', 437, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:55:16 Error: Fatal Error (1): Cannot access empty property in [/var/www/html/mycake/lib/Cake/Controller/Controller.php, line 437]
+2015-04-01 16:55:16 Error: [FatalErrorException] Cannot access empty property
+Request URL: /mycake/
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/html/m...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/html/m...', 437, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/html/m...', 437, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:55:20 Error: Fatal Error (1): Cannot access empty property in [/var/www/html/mycake/lib/Cake/Controller/Controller.php, line 437]
+2015-04-01 16:55:20 Error: [FatalErrorException] Cannot access empty property
+Request URL: /mycake/
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/var/www/html/m...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/var/www/html/m...', 437, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/var/www/html/m...', 437, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:55:43 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/login.ctp',
+)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 16:56:15 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/login.ctp',
+)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 16:56:16 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/login.ctp',
+)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 16:56:16 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/login.ctp',
+)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-01 16:56:47 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 146]
+2015-04-01 16:56:47 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 146)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 146, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 146, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:57:06 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 16:57:06 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:57:27 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:57:27 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:57:27 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:57:27 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:57:27 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:57:27 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:57:28 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:57:28 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:57:28 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:57:28 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:16 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:16 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:18 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:18 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:18 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:18 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:18 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:18 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:19 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:19 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:34 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:34 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:35 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:35 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:35 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:35 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:35 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:35 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:36 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:36 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:36 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:36 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:36 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:36 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:36 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:36 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:37 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:37 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:58:37 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:58:37 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:16 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:59:16 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:59:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:59:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:17 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 16:59:17 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:36 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 16:59:36 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:37 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 16:59:37 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:37 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 16:59:37 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 16:59:38 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 16:59:38 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:03 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 17:02:03 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:04 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 17:02:04 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:04 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 147]
+2015-04-01 17:02:04 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 147)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 147, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:20 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:20 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:20 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:20 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:20 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:20 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:20 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:20 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:21 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:21 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:21 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:21 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:21 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:21 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:21 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:21 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:21 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:21 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:02:22 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ';' or '{' in [/var/www/html/mycake/app/Controller/UsersController.php, line 149]
+2015-04-01 17:02:22 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ';' or '{'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 149, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:05:13 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/var/www/html/mycake/app/Model/User.php, line 52]
+2015-04-01 17:05:13 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /mycake/users/operation
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/var/www/html/m...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/var/www/html/m...', 52, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/var/www/html/m...', 52, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:11:07 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/var/www/html/mycake/app/Model/User.php, line 52]
+2015-04-01 17:11:07 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /mycake/users/operation
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/var/www/html/m...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/var/www/html/m...', 52, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/var/www/html/m...', 52, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:13:40 Error: Fatal Error (1): Call to a member function login() on a non-object in [/var/www/html/mycake/app/Controller/UsersController.php, line 150]
+2015-04-01 17:13:40 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/m...', 150)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/m...', 150, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/m...', 150, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:14:19 Error: Fatal Error (1): Call to a member function login() on a non-object in [/var/www/html/mycake/app/Controller/UsersController.php, line 150]
+2015-04-01 17:14:19 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/m...', 150)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/m...', 150, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/m...', 150, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:19:21 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /mycake/users/
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 17:25:28 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /mycake/users
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 17:28:21 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/var/www/html/mycake/app/Controller/UsersController.php, line 155]
+2015-04-01 17:28:21 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/var/www/html/m...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/var/www/html/m...', 155, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/var/www/html/m...', 155, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 17:30:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/mycake/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/html/mycake/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('soumya', '$2a$10$ghluFcsq...')
+#8 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(753): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(600): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/mycake/app/Controller/UsersController.php(159): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/html/mycake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-04-01 17:32:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/mycake/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/html/mycake/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('soumya', '$2a$10$gL5LB2kU...')
+#8 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(753): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(600): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/mycake/app/Controller/UsersController.php(159): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/html/mycake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-04-01 17:32:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/html/mycake/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/html/mycake/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /var/www/html/mycake/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('soumya', '$2a$10$ICyKzu2Y...')
+#8 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(753): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(600): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/mycake/app/Controller/UsersController.php(159): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /var/www/html/mycake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-04-06 10:03:35 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [/var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php, line 348]
+2015-04-06 10:03:35 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/m...', 348)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/m...', 348, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/m...', 348, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 10:26:42 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/html/mycake/app/Controller/UsersController.php, line 229]
+2015-04-06 10:26:42 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 229)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 229, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 229, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 10:28:55 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/html/mycake/app/Controller/UsersController.php, line 229]
+2015-04-06 10:28:55 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 229)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 229, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 229, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 10:30:07 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/var/www/html/mycake/app/Controller/UsersController.php, line 229]
+2015-04-06 10:30:07 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /mycake/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 229)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 229, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 229, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 10:31:45 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:32:17 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:32:20 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:32:20 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:32:21 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:32:27 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:32:47 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/login
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:32:57 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/login
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:33:01 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/login
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:33:27 Error: [MissingControllerException] Controller class ListingController could not be found.
+Exception Attributes: array (
+  'class' => 'ListingController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/listing
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:33:44 Error: [MissingControllerException] Controller class ListingController could not be found.
+Exception Attributes: array (
+  'class' => 'ListingController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/listing
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:34:09 Error: [MissingControllerException] Controller class ListingController could not be found.
+Exception Attributes: array (
+  'class' => 'ListingController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/listing
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:34:09 Error: [MissingControllerException] Controller class ListingController could not be found.
+Exception Attributes: array (
+  'class' => 'ListingController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/listing
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:34:44 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:35:09 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:35:48 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:36:56 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:37:01 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /mycake/users/
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:40:40 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/test
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:40:56 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/test
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:41:22 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:41:39 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:42:11 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /mycake/users/users/login
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-06 10:47:26 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 34411888 bytes) in [/var/www/html/mycake/lib/Cake/View/View.php, line 951]
+2015-04-06 10:47:26 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 34411888 bytes)
+Request URL: /mycake/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/html/m...', 951)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/html/m...', 951, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/html/m...', 951, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 10:56:45 Error: [MissingControllerException] Controller class MycakeController could not be found.
+Exception Attributes: array (
+  'class' => 'MycakeController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/mycake/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 10:57:18 Error: [MissingControllerException] Controller class MycakeController could not be found.
+Exception Attributes: array (
+  'class' => 'MycakeController',
+  'plugin' => NULL,
+)
+Request URL: /mycake/mycake/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-06 11:05:20 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /mycake/users/listing
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(500): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(462): AuthComponent->constructAuthorize()
+#3 /var/www/html/mycake/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 /var/www/html/mycake/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /var/www/html/mycake/lib/Cake/Event/CakeEventManager.php(242): call_user_func(Array, Object(CakeEvent))
+#8 /var/www/html/mycake/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#10 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-06 11:07:58 Error: [NotFoundException] Invalid User
+Request URL: /mycake/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-06 11:20:51 Error: [MissingViewException] View file "/var/www/html/mycake/app/View/Users/home.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/mycake/app/View/Users/home.ctp',
+)
+Request URL: /mycake/users/home
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/mycake/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/mycake/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/mycake/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-06 12:01:05 Error: Fatal Error (4): syntax error, unexpected 'car' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:05 Error: [FatalErrorException] syntax error, unexpected 'car' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 12:01:26 Error: Fatal Error (4): syntax error, unexpected 'user' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:26 Error: [FatalErrorException] syntax error, unexpected 'user' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 12:01:27 Error: Fatal Error (4): syntax error, unexpected 'user' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:27 Error: [FatalErrorException] syntax error, unexpected 'user' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 12:01:27 Error: Fatal Error (4): syntax error, unexpected 'user' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:27 Error: [FatalErrorException] syntax error, unexpected 'user' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 12:01:45 Error: Fatal Error (4): syntax error, unexpected 'user' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:45 Error: [FatalErrorException] syntax error, unexpected 'user' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 12:01:45 Error: Fatal Error (4): syntax error, unexpected 'user' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:45 Error: [FatalErrorException] syntax error, unexpected 'user' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-06 12:01:46 Error: Fatal Error (4): syntax error, unexpected 'user' (T_STRING), expecting ')' in [/var/www/html/mycake/app/Model/User.php, line 53]
+2015-04-06 12:01:46 Error: [FatalErrorException] syntax error, unexpected 'user' (T_STRING), expecting ')'
+Request URL: /mycake/users/add
+Stack Trace:
+#0 /var/www/html/mycake/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/m...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#2 /var/www/html/mycake/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/m...', 53, Array)
+#3 /var/www/html/mycake/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
