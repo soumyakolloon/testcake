@@ -34,3 +34,10 @@ username: soumyamohanan2014@gmail.com
 password: mh04da2003
 
 ----------------------------------------------
+
+Github login
+
+username: soumya.k@bridge-india.in
+password: mh04da2003
+
+------------------------------------------------
