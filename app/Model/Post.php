@@ -1,6 +1,9 @@
 <?php
 /**
+ * Application model for CakePHP.
  *
+ * This file is application-wide model file. You can put all
+ * application-wide model-related methods here.
  *
  * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
  * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
@@ -11,16 +14,21 @@
  *
  * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Emails.html
- * @since         CakePHP(tm) v 0.10.0.1076
+ * @package       app.Model
+ * @since         CakePHP(tm) v 0.2.9
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-?>
-<?php
 
-$content = explode("\n", $content);
+App::uses('Model', 'Model');
 
-foreach ($content as $line):
-	echo '<p> ' . $line . "</p>\n";
-endforeach;
-?>
+/**
+ * Application model for Cake.
+ *
+ * Add your application-wide methods in the class below, your models
+ * will inherit them.
+ *
+ * @package       app.Model
+ */
+class Post extends Model {
+
+}

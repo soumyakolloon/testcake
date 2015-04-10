@@ -48,12 +48,13 @@ class EmailConfig {
 
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('site@localhost' => 'My Site'),
-		'host' => 'localhost',
-		'port' => 25,
+		'from' => array('soumyamohanan2014@gmail.com' => 'soumyamohanan2014@gmail.com'),
+		'host' => 'ssl://smtp.gmail.com',
+        'port' => 465,
+		//'port' => 25,
 		'timeout' => 30,
-		'username' => 'user',
-		'password' => 'secret',
+		'username' => 'soumyaabhilash85@gmail.com',
+		'password' => 'sujathamohanan',
 		'client' => null,
 		'log' => false,
 		//'charset' => 'utf-8',

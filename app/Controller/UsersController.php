@@ -20,6 +20,8 @@
 
 App::uses('AppController', 'Controller');
 App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
+App::uses('CakeEmail', 'Network/Email');
+
 /**
  * Static content controller
  *
@@ -48,7 +50,11 @@ class UsersController extends AppController {
 
 	public function home()
 	{
-
+        // $Email = new CakeEmail('smtp');
+        // $Email->from(array('soumyamohanan2014@gmail.com' => 'soumyamohanan2014@gmail.com'));
+        // $Email->to('soumya.k@bridge-india.in');
+        // $Email->subject('About');
+        // $Email->send('My message');
 	}
 
 
@@ -139,11 +145,10 @@ class UsersController extends AppController {
 
 	}
 
- public function beforeFilter() {
+     public function beforeFilter() {
+
          parent::beforeFilter();
-  	
-      	
-        /* allow add action so user can register */
+  	 /* allow add action so user can register */
         $this->Auth->allow('add', 'logout'); 
         
     }

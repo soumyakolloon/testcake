@@ -32,39 +32,43 @@ App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
 class User extends Model {
 
 public $validate = array(
+       
         'username' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
                 'message' => 'A username is required'
             )
-        ),
+            ),
         'password' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
                 'message' => 'A password is required'
             )
-        ),
-//         'add' => array(
-// 'rule' => 'isUnique',
-// 'required' => true,
-// 'allowEmpty' => false,
-// 'on' => 'create', // here
-// 'last' => false,
-// 'message' => 'a user with that registration already exists'
-// )
-
+            ),
+        
+         'email' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'A username is required'
+            )
+            ),
+        
+         'username' => array(
+                'rule'    => 'isUnique',
+                'message' => 'username already registered'
+            ) 
 
        
 	);
 
 
+
     public function beforeSave($options = array()) {
-        
-    /* password hashing */    
+      /* password hashing */    
     if (isset($this->data[$this->alias]['password'])) {
         $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
     }
     return true;
-}
+ }
 
 }
